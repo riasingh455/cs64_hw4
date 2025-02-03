@@ -69,6 +69,10 @@ print:
     li $v0, 1
     syscall
 
+    li $v0, 4 
+    la $a0, newline
+    syscall
+
 exit:
 	# TODO: Write code to properly exit a SPIM simulation
 
